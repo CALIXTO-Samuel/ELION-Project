@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d16">
+  <meta name="description" content="Cenários definidos para falhas, segurança, continuidade, comunicação, relatórios e evolução do ELION.">
+  <title>Simulações e testes | ELION Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">E</span><span>ELION<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav">
+      <a href="index.html">Início</a><a href="original.html">ELION original</a><a href="beta.html">BASE BETA</a><a href="comparativo.html">Comparativo</a><a href="testes.html">Testes</a>
+    </nav>
+  </header>
+  <main class="detail-main">
+    <section class="detail-hero section-wrap">
+      <div class="section-kicker">CENÁRIOS / COMPORTAMENTOS ESPERADOS</div>
+      <h1>Simulações e testes</h1>
+      <p>Cenários definidos para falhas, segurança, continuidade, comunicação, relatórios e evolução do ELION.</p>
+      <div class="detail-links"><a class="button button-primary" href="comparativo.html">Ver comparativo <span>↗</span></a><a class="text-link" href="testes.html">Cenários e validações ↗</a></div>
+    </section>
+    
+<section class="detail-section section-wrap"><div class="section-kicker">01 / ESCOPO</div><h2>O que foi consolidado</h2><p class="detail-lead">As decisões abaixo consolidam os comportamentos esperados para cenários de falha, segurança, continuidade, comunicação e evolução. São especificações de teste e simulações conceituais: não significam que hardware físico, autonomia energética ou integração real tenham sido aprovados.</p><div class="status-strip"><span>ESPECIFICAÇÃO CONSOLIDADA</span><span>VALIDAÇÃO FÍSICA PENDENTE</span></div></section>
+<section class="detail-section section-wrap"><div class="section-kicker">02 / CENÁRIOS E RESULTADOS ESPERADOS</div><h2>Matriz de comportamento</h2><div class="test-table-wrap"><table class="test-table"><thead><tr><th>Cenário</th><th>ELION original</th><th>BASE BETA</th><th>Estado</th></tr></thead><tbody>
+<tr><td>Atualização pendente</td><td>Explicar mudanças, correções, impacto e riscos; avisar supervisores/CEO(s) e perguntar se deve atualizar agora.</td><td>Mesmo princípio, respeitando os recursos e a política Beta.</td><td>Definido</td></tr>
+<tr><td>Atualização em vários dispositivos</td><td>Após aprovação, atualizar um dispositivo por vez para evitar sobrecarga e indisponibilidade simultânea.</td><td>Mesmo comportamento.</td><td>Definido</td></tr>
+<tr><td>Falha durante atualização</td><td>Restaurar versão estável anterior; investigar causa; avisar responsáveis; preparar correção; pedir autorização antes de nova tentativa.</td><td>Mesmo comportamento, conforme capacidade técnica de restauração.</td><td>Definido</td></tr>
+<tr><td>Queda da internet principal</td><td>Usar conexão própria por dados móveis.</td><td>Não tem conexão própria; funções locais de cibersegurança continuam. Funções online ficam indisponíveis.</td><td>Definido</td></tr>
+<tr><td>Queda de todas as conexões</td><td>Manter funções locais possíveis; ao retornar, analisar o período e relatar ocorrências relevantes.</td><td>Manter cibersegurança local; ao retornar, destacar apenas eventos marcantes.</td><td>Definido</td></tr>
+<tr><td>Tentativa de acesso não autorizado</td><td>Investigar, coletar identificação/finalidade e avisar supervisor; sem resposta, aplicar apenas proteção previamente autorizada.</td><td>Comunicar e pedir autorização antes de agir por iniciativa própria.</td><td>Definido</td></tr>
+<tr><td>Comportamento anormal sem evidência suficiente</td><td>Informar usuário responsável, explicar e oferecer soluções; escalar aos supervisores se não houver resposta ou manutenção.</td><td>Mesmo fluxo.</td><td>Definido</td></tr>
+<tr><td>Falha/corrupção de dados</td><td>Investigar integridade e origem, preservar e recuperar dados possíveis, registrar detalhadamente.</td><td>Procedimentos mais simples, preservando dados recuperáveis e proteção essencial.</td><td>Definido conceitualmente</td></tr>
+<tr><td>Queda de energia</td><td>Meta de 72 h; alerta de reserva final após 71 h.</td><td>Meta de 16 h; alerta de reserva final após 14 h 30 min.</td><td>Meta não validada</td></tr>
+<tr><td>Falha de armazenamento/backup</td><td>Tentar destinos até 3 vezes; dispositivo físico e e-mail com acesso à nuvem privada; se falhar, pendência para salvamento manual.</td><td>Até 3 tentativas; e-mail com acesso à nuvem privada; sem dispositivo físico; pendência para salvamento manual.</td><td>Definido</td></tr>
+<tr><td>Perda de comunicação entre dispositivos</td><td>Identificar e registrar dispositivo/horário; investigar; avisar usuário e supervisores; tentar reconectar; registrar período; aguardar orientação se inseguro.</td><td>Identificar, investigar, avisar usuário e supervisores, registrar período e aguardar orientação; reconexão automática não foi selecionada como requisito.</td><td>Definido</td></tr>
+<tr><tr><td>Falha parcial de módulo</td><td>Preservar funções restantes, isolar falha, avisar, usar alternativas, tentar recuperação e registrar/investigar.</td><td>Preservar funções restantes, isolar falha, avisar, tentar recuperação e registrar/investigar.</td><td>Definido</td></tr>
+<tr><td>Relatórios e histórico</td><td>Periódicos, por ocorrência, histórico completo, resumos, sob solicitação, comparações e exportação.</td><td>Todos, exceto comparações históricas como requisito definido nesta etapa.</td><td>Definido</td></tr>
+<tr><td>Notificações</td><td>Painel, dispositivos, e-mail, prioridade, encaminhamento, confirmação, escalonamento e histórico.</td><td>Mesmas categorias funcionais.</td><td>Definido</td></tr>
+<tr><td>Autonomia</td><td>Rotina, prevenção autorizada, proteção emergencial delimitada e correções de baixo risco previamente definidas.</td><td>Rotina, prevenção autorizada e proteção emergencial delimitada.</td><td>Definido</td></tr>
+<tr><td>Erros próprios</td><td>Reconhecer, investigar, corrigir com segurança, comunicar, registrar, aprender, pedir autorização para operações importantes e reverter quando seguro.</td><td>Reconhecer, investigar, corrigir dentro da capacidade, comunicar e registrar.</td><td>Definido</td></tr>
+<tr><td>Evolução e melhorias</td><td>Avaliar, testar isoladamente, apresentar para aprovação; pequenas melhorias de baixo risco podem ser aplicadas dentro dos limites; permitir reversão e registrar.</td><td>Avaliar, testar isoladamente, apresentar para aprovação e registrar; reversão será possível quando tecnicamente necessária e segura.</td><td>Definido</td></tr>
+</tbody></table></div></section>
+<section class="detail-section section-wrap"><div class="section-kicker">03 / REGRAS TRANSVERSAIS</div><h2>Como interpretar os resultados</h2><ul class="detail-list"><li><b>Prioridade contextual:</b> avaliar segurança, impacto financeiro, urgência, continuidade e pessoas afetadas.</li><li><b>Investigação:</b> procurar origem, evidências, consequências e causas relacionadas; alertas urgentes não aguardam investigação terminar.</li><li><b>Transparência:</b> separar fatos, hipóteses, evidências e recomendações; indicar incerteza e grau de confiança.</li><li><b>Aprendizado:</b> usar dados e correções autorizados para reconhecer padrões e melhorar análises; mudanças em segurança, permissões ou políticas exigem validação e autorização.</li><li><b>Privacidade:</b> acesso individual, contextual e limitado à função, necessidade e confidencialidade.</li><li><b>Continuidade:</b> preservar módulos que ainda funcionam e isolar falhas para evitar propagação; suspender tudo somente se houver risco geral.</li></ul></section>
+<section class="detail-section section-wrap"><div class="section-kicker">04 / TESTES AINDA NECESSÁRIOS</div><h2>Da simulação à validação real</h2><div class="detail-grid"><article class="detail-card"><h3>Simulação em software</h3><p>Modelar interrupções, fluxos de aprovação, filas, registros, alertas, restauração lógica e consistência de dados em ambiente isolado.</p></article><article class="detail-card"><h3>Verificação documental</h3><p>Conferir fichas técnicas, compatibilidade, consumo, capacidade, limites térmicos, interfaces e requisitos de segurança dos componentes candidatos.</p></article><article class="detail-card"><h3>Protótipo físico controlado</h3><p>Testar inicialização, conectividade, armazenamento, sensores, temperatura, consumo e comutação de energia sem colocar dados ou sistemas reais em risco.</p></article><article class="detail-card"><h3>Validação final</h3><p>Medir autonomia real sob carga definida, comportamento em falhas, recuperação, backups, segurança, estabilidade e desempenho. Só então declarar resultados físicos.</p></article></div><p class="muted">Não foram declarados como aprovados: autonomia de 72 h ou 16 h, dimensões finais, compatibilidade de microSD/flash, desempenho de IA, operação com todos os módulos integrados ou restauração real de hardware.</p></section>
+
+  </main>
+  <footer class="footer"><div class="section-wrap footer-top"><a class="brand" href="index.html"><span class="brand-mark">E</span><span>ELION<span class="brand-dot">.</span></span></a><p>Inteligência que conecta a organização.</p><a class="back-top" href="#">VOLTAR AO TOPO ↑</a></div><div class="section-wrap footer-bottom"><span>© 2026 ELION PROJECT.</span><span>PROJETO INDEPENDENTE · BRASIL</span><span>Visão e requisitos em desenvolvimento.</span></div></footer>
+</body>
+</html>
