@@ -15,3 +15,13 @@
 .detail-section+.detail-section{border-top:1px solid rgba(153,190,210,.08)}
 .detail-section .detail-card+.detail-card{margin-top:0}
 @media(min-width:900px){.detail-section{padding-top:76px;padding-bottom:30px}.detail-grid{gap:18px}}
+
+/* Navegação mais enxuta e leitura contínua */
+.site-header{height:70px}
+.nav{gap:22px;font-size:12px}
+.nav a{white-space:nowrap}
+.detail-hero{padding-top:88px;padding-bottom:65px}
+.detail-section{padding-top:68px;padding-bottom:26px}
+.detail-section+.detail-section{margin-top:12px}
+@media(max-width:900px){.site-header{padding-left:24px;padding-right:24px}.nav{gap:13px}.nav a{font-size:10px}}
+@media(max-width:700px){.site-header{height:66px}.nav{top:66px}.detail-hero{padding-top:66px;padding-bottom:48px}.detail-section{padding-top:48px}}
