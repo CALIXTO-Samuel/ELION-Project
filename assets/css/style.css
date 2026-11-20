@@ -41,3 +41,5 @@
 .elion-video[open] summary{background:#b0e3e1}
 .video-caption{margin-top:18px}
 @media(max-width:600px){.elion-video-card{padding:18px}.elion-video-heading{align-items:flex-start;flex-direction:column}.elion-video summary{width:100%;justify-content:center}}
+
+.elion-video-frame iframe{display:block;width:100%;height:auto;aspect-ratio:16/9;border:0;background:#050a11}
