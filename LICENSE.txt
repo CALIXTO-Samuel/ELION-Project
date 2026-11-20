@@ -1,0 +1,14 @@
+ELION PROJECT — PROPRIETARY NOTICE
+Copyright (c) 2026 ELION Project. All rights reserved.
+
+NO OPEN-SOURCE LICENSE IS GRANTED.
+
+This repository is made publicly accessible for viewing and informational purposes only. Unless the relevant rights holder has granted prior, express written permission, no license or permission is granted to copy, reproduce, modify, adapt, translate, distribute, sublicense, publish, commercially exploit, or incorporate protected project materials into another product, service, or project.
+
+This notice applies only to original materials in which the relevant rights holder owns or controls rights, including original source code, documentation, text, diagrams, drawings, visual assets, presentations, and project-specific materials. Third-party materials remain subject to their respective owners' rights and licenses.
+
+No exclusive ownership is claimed over abstract ideas, general concepts, methods, principles, or functionality as such. Nothing in this notice limits statutory exceptions, lawful independent development, or rights that cannot legally be restricted.
+
+Public access does not create a confidentiality obligation and does not make already-published information confidential. Non-public technical information should be shared only under separately agreed confidentiality terms.
+
+Any permitted use must be expressly authorized in writing by the relevant rights holder. This notice is informational and is not a substitute for legal advice or a negotiated agreement.
