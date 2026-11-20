@@ -1,6 +1,6 @@
 # ELION — Aviso de propriedade intelectual e condições de uso
 
-**© 2026 ELION Project. Todos os direitos reservados.**
+**© 2026 ELION Project. Direitos reservados aos respectivos titulares.**
 
 Este repositório e o site institucional disponibilizam materiais para consulta e apresentação do projeto. O acesso público não concede, por si só, licença ou autorização para explorar comercialmente, copiar, adaptar ou redistribuir os materiais protegidos.
 
